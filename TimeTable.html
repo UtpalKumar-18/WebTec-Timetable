@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Class Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        .mon {
+            background-color: lightblue;
+        }
+
+        .tue {
+            background-color: lightgreen;
+        }
+
+        .wed {
+            background-color: lightblue;
+        }
+
+        .thur {
+            background-color: lightgreen;
+        }
+
+        .fri {
+            background-color: lightblue;
+        }
+
+        .sat {
+            background-color: lightgreen;
+        }
+
+        .break {
+            background-color: white;
+            font-weight: bold;
+        }
+
+        .heading {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="heading">
+        <h2>BANGALORE INSTITUTE OF TECHNOLOGY</h2>
+        <h3>DEPARTMENT OF CSE</h3>
+        <h3>TIME TABLE FOR THE YEAR - SEP 2026 - 27</h3>
+        <p>V Sem, D Section, Academic Year 2026-27</p>
+        <p><b>W.e.f.: 7/9/2026</b></p>
+    </div>
+
+
+    <table>
+
+        
+        <tr>
+            <th>TIME<br>DAYS</th>
+            <th>8.00<br>to<br>9.00</th>
+            <th>9.00<br>to<br>10.00</th>
+            <th>10.00<br>to<br>10.30</th>
+            <th>10.30<br>to<br>11.30</th>
+            <th>11.30<br>to<br>12.30</th>
+            <th>12.30<br>to<br>1.30</th>
+            <th>1.30<br>to<br>2.30</th>
+            <th>2.30<br>to<br>3.30</th>
+            <th>3.30<br>to<br>4.30</th>
+            <th>4.30<br>to<br>5.30</th>
+        </tr>
+
+
+        <!-- MONDAY -->
+        <tr class="mon">
+            <td rowspan="3"><b>MON</b></td>
+            <td></td>
+            <td></td>
+
+            <td rowspan="15" class="break">
+                TEA BREAK
+            </td>
+
+            <td>Online</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="mon">
+            <td></td>
+            <td></td>
+            <td>EVS</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="mon">
+            <td></td>
+            <td></td>
+            <td>CHS</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+        <!-- TUESDAY -->
+        <tr class="tue">
+            <td rowspan="3"><b>TUE</b></td>
+
+            <td colspan="2">WT Lab / CNS Lab</td>
+
+            <td>RM</td>
+            <td>AI</td>
+            <td></td>
+            <td>SE</td>
+            <td>TOC</td>
+            <td>CNS</td>
+            <td></td>
+        </tr>
+
+        <tr class="tue">
+            <td>D3+D4</td>
+            <td>D1+D2</td>
+
+            <td>MNS</td>
+            <td>SL</td>
+            <td></td>
+            <td>GR</td>
+            <td>NT</td>
+            <td>GHS</td>
+            <td></td>
+        </tr>
+
+        <tr class="tue">
+            <td>503</td>
+            <td>502/518</td>
+
+            <td>519</td>
+            <td>519</td>
+            <td></td>
+            <td>511</td>
+            <td>511</td>
+            <td>511</td>
+            <td></td>
+        </tr>
+
+
+        <!-- WEDNESDAY -->
+        <tr class="wed">
+            <td rowspan="3"><b>WED</b></td>
+
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+
+            <td>TOC</td>
+            <td>AI</td>
+            <td>SE</td>
+            <td>RM</td>
+            <td></td>
+        </tr>
+
+        <tr class="wed">
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+
+            <td>NT</td>
+            <td>SL</td>
+            <td>GR</td>
+            <td>MNS</td>
+            <td></td>
+        </tr>
+
+        <tr class="wed">
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+
+            <td>521</td>
+            <td>521</td>
+            <td>521</td>
+            <td>521</td>
+            <td></td>
+        </tr>
+
+
+        <!-- THURSDAY -->
+        <tr class="thur">
+            <td rowspan="3"><b>THUR</b></td>
+
+            <td colspan="2">WT Lab / CNS Lab</td>
+
+            <td>TOC</td>
+            <td>SE</td>
+            <td>CNS</td>
+            <td></td>
+            <td colspan="2">MINI PROJECT</td>
+            <td></td>
+        </tr>
+
+        <tr class="thur">
+            <td>D1+D2</td>
+            <td>D3+D4</td>
+
+            <td>NT</td>
+            <td>GR</td>
+            <td>GHS</td>
+            <td></td>
+            <td colspan="2">Nethravathy & Chaitra</td>
+            <td></td>
+        </tr>
+
+        <tr class="thur">
+            <td>503</td>
+            <td>527A</td>
+
+            <td>525</td>
+            <td>525</td>
+            <td>525</td>
+            <td></td>
+            <td colspan="2">519</td>
+            <td></td>
+        </tr>
+
+
+        <!-- FRIDAY -->
+        <tr class="fri">
+            <td rowspan="3"><b>FRI</b></td>
+
+            <td>YOGA</td>
+            <td>TOC</td>
+
+            <td>SE</td>
+            <td>CNS</td>
+            <td></td>
+
+            <td>RM</td>
+            <td>AI</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="fri">
+            <td></td>
+            <td>NT</td>
+
+            <td>GR</td>
+            <td>GHS</td>
+            <td></td>
+
+            <td>MNS</td>
+            <td>SL</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="fri">
+            <td></td>
+            <td>517</td>
+
+            <td>517</td>
+            <td>517</td>
+            <td></td>
+
+            <td>521</td>
+            <td>521</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+        <!-- SATURDAY -->
+        <tr class="sat">
+            <td rowspan="3"><b>SAT</b></td>
+
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td colspan="2">MINI PROJECT</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="sat">
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td colspan="2">Nethravathy & Chaitra</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr class="sat">
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td colspan="2">519</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+
+    <br>
+
+    
+    <table>
+
+        <tr>
+            <th>Sub Code</th>
+            <th>Subject</th>
+            <th>Lab Incharges</th>
+        </tr>
+
+        <tr>
+            <td>BCS502</td>
+            <td>Computer Networks & Security</td>
+            <td>GHS+KNP</td>
+        </tr>
+
+        <tr>
+            <td>BCSL504</td>
+            <td>Web Technology Laboratory</td>
+            <td>ATN+SBG</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
